@@ -1,6 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { DataService } from "./services/data-service.service";
-import * as socketIo from 'socket.io-client';
 import '../polyfills';
 import { of } from 'rxjs';
 @Component({
