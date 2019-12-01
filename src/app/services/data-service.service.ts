@@ -5,7 +5,7 @@ const httpOptions = {
     'Content-Type': 'application/json'
   })
 };
-const data_URL = 'http://10.10.114.97:5556/microFrontend';
+const data_URL = 'https://nodemicrofrontend--shbh1991.repl.co/microFrontend';
 @Injectable()
 export class DataService {
   constructor(private http: HttpClient) { }
